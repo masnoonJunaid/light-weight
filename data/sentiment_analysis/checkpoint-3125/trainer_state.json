@@ -1,0 +1,66 @@
+{
+  "best_metric": 0.6936625838279724,
+  "best_model_checkpoint": "./data/sentiment_analysis/checkpoint-3125",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 3125,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.00168,
+      "loss": 0.7242,
+      "step": 500
+    },
+    {
+      "epoch": 0.32,
+      "learning_rate": 0.00136,
+      "loss": 0.7184,
+      "step": 1000
+    },
+    {
+      "epoch": 0.48,
+      "learning_rate": 0.0010400000000000001,
+      "loss": 0.7097,
+      "step": 1500
+    },
+    {
+      "epoch": 0.64,
+      "learning_rate": 0.0007199999999999999,
+      "loss": 0.7026,
+      "step": 2000
+    },
+    {
+      "epoch": 0.8,
+      "learning_rate": 0.0004,
+      "loss": 0.7008,
+      "step": 2500
+    },
+    {
+      "epoch": 0.96,
+      "learning_rate": 8e-05,
+      "loss": 0.6991,
+      "step": 3000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.5,
+      "eval_loss": 0.6936625838279724,
+      "eval_runtime": 801.7166,
+      "eval_samples_per_second": 31.183,
+      "eval_steps_per_second": 3.898,
+      "step": 3125
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3125,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 6623192985600000.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
